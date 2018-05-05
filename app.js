@@ -108,9 +108,7 @@ function watchSubmit() {
                     if( photoData.response.photos.count > 0 ){
                                
                         let photo = photoData.response.photos.items[0];
-                       
-                        
-                     
+                    
                         addPhotoResultToVenue(venue, photo);
                      
                         // we have found a photo. find the venue already on the page and add the photo to it
