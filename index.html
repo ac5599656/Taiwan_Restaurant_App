@@ -26,18 +26,15 @@
                                 
                             <input type = "text" name = "restaurant" title = "restaurant-search" class= "search-restaurant" placeholder = "Search for restaurant" aria-label = "search" required/>
                         
-                            <button class = "search-button"><img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" alt="search_button" class="searchbtn"/><span class="search-button2">Search</span></button>
+                            <button type = "submit" class = "search-button"><img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" alt="search_button" class="searchbtn"/><span  class="search-button2">Search</span>
+                            </button>
                            
                         </div> 
                      </fieldset>    
                 </form>
             </div>
         </div>  
-        <div class = "row" class = "search">
-            <div class = "col-12">
-                <footer>© 2018 Anne Chen.  All Rights Reserved</footer>
-            </div>
-       </div> 
+        
     </section>   
     <div class = "no-result"  hidden aria-live="assertive"></div>  
     <div class = "new-search-button-container" hidden>
@@ -49,6 +46,11 @@
     </div>
         <section class = "result"><div class = "row"></div></section> 
 </main>
+    <div class = "row" class = "search">
+        <div class = "col-12">
+            <footer role = "contentinfo">© 2018 Anne Chen.  All Rights Reserved</footer>
+        </div>
+    </div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

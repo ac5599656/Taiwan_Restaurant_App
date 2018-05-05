@@ -162,8 +162,10 @@ fieldset {
     }
     .search-button2{
         display: block;
+        border-radius: 12px; 
         color:black;
         margin: 0 auto;
+        padding: 5px;
         text-align: center;
     }
     
