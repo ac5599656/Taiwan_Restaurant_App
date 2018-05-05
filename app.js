@@ -1,4 +1,4 @@
-///Foursquare Client ID and Client Secret
+///Foursquare Client ID, Client Secret , and url.
 const VENUE_DETAIL_URL =  "https://api.foursquare.com/v2/venues/";
 const VENUE_SEARCH_URL = "https://api.foursquare.com/v2/venues/search";
 const CLIENT_ID =
@@ -109,7 +109,7 @@ function watchSubmit() {
                                
                         let photo = photoData.response.photos.items[0];
                        
-                        // this will run last, after the *** below
+                        
                      
                         addPhotoResultToVenue(venue, photo);
                      
